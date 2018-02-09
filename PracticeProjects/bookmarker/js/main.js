@@ -9,6 +9,7 @@ function saveBookmark(e) {
    if(!validateForm(siteName, siteURL)){
        return false;
    }
+   
 
     var bookmark = {
         name: siteName,
